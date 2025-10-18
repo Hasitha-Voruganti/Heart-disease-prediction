@@ -62,7 +62,9 @@ heart_disease_prediction/<br>
 ## 🛠️ Prerequisites
 - Python 3.8+
 - Required Python libraries:
-- pip install streamlit pandas numpy scikit-learn plotly joblib
+```bash
+- pip install streamlit pandas numpy scikit-learn plotly joblib matplotlib seaborn
+```
 
 ---
 
@@ -71,9 +73,11 @@ heart_disease_prediction/<br>
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/Hasitha-Voruganti/Heart-disease-prediction.git
-cd Heart-disease-prediction```
+cd Heart-disease-prediction
+```
 - Run the Streamlit app:
 ```bash
-python -m streamlit run app.py```
+python -m streamlit run app.py
+```
 - The app will open in your browser at:
 👉 http://localhost:8501
