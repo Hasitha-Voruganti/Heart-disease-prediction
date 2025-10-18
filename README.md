@@ -43,15 +43,15 @@ Check out the deployed app here: [Heart Disease Prediction App](https://heart-di
 ---
 
 ## 🏗 Project Structure
-heart_disease_prediction/
-│
-├── app.py # Streamlit app
-├── heart_disease_svm_model.pkl # Trained SVM model
-├── scaler.pkl # StandardScaler object
-├── feature_columns.pkl # Columns used during training
-├── code.ipynb # Jupyter notebook with EDA and model building
-├── .gitignore # Git ignore file
-└── README.md # Project documentation
+- heart_disease_prediction/
+- │
+- ├── app.py # Streamlit app
+- ├── heart_disease_svm_model.pkl # Trained SVM model
+- ├── scaler.pkl # StandardScaler object
+- ├── feature_columns.pkl # Columns used during training
+- ├── code.ipynb # Jupyter notebook with EDA and model building
+- ├── .gitignore # Git ignore file
+- └── README.md # Project documentation
 
 ---
 
