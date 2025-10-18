@@ -18,6 +18,10 @@ Check out the deployed app here: [Heart Disease Prediction App](https://heart-di
 
 ---
 
+## Model Type:
+**Support Vector Machine (SVM)** is a supervised machine learning algorithm used for classification and regression tasks.  
+- SVM works by finding the **optimal hyperplane** that separates data points of different classes in a high-dimensional space.  
+
 ## 📊 Dataset
 - Based on the **Kaggle Heart Failure Prediction Dataset**.
 - Includes features such as Age, Sex, Chest Pain Type, Resting Blood Pressure, Cholesterol, Fasting Blood Sugar, Max Heart Rate, ECG results, Exercise-induced Angina, Oldpeak, and ST Slope.
@@ -43,30 +47,33 @@ Check out the deployed app here: [Heart Disease Prediction App](https://heart-di
 ---
 
 ## 🏗 Project Structure
-- heart_disease_prediction/
-- │
-- ├── app.py # Streamlit app
-- ├── heart_disease_svm_model.pkl # Trained SVM model
-- ├── scaler.pkl # StandardScaler object
-- ├── feature_columns.pkl # Columns used during training
-- ├── code.ipynb # Jupyter notebook with EDA and model building
-- ├── .gitignore # Git ignore file
-- └── README.md # Project documentation
+heart_disease_prediction/<br>
+│<br>
+├── app.py # Streamlit application<br>
+├── heart_disease_svm_model.pkl # Trained SVM model<br>
+├── scaler.pkl # StandardScaler object<br>
+├── feature_columns.pkl # Columns used during training<br>
+├── code.ipynb # Jupyter notebook with EDA and model building<br>
+├── .gitignore # Git ignore file<br>
+└── README.md # Project documentation<br>
 
 ---
 
 ## 🛠️ Prerequisites
-Python 3.8+
-Required Python libraries:
-pip install streamlit pandas numpy scikit-learn plotly joblib
+- Python 3.8+
+- Required Python libraries:
+- pip install streamlit pandas numpy scikit-learn plotly joblib
 
 ---
 
 ## 🚀 Running the App Locally
-Clone the repository:
+
+1. **Clone the repository:**
+```bash
 git clone https://github.com/Hasitha-Voruganti/Heart-disease-prediction.git
 cd Heart-disease-prediction
-Run the Streamlit app:
+- Run the Streamlit app:
+```bash
 python -m streamlit run app.py
-The app will open in your browser at:
+- The app will open in your browser at:
 👉 http://localhost:8501
