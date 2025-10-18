@@ -63,7 +63,7 @@ heart_disease_prediction/<br>
 - Python 3.8+
 - Required Python libraries:
 ```bash
-- pip install streamlit pandas numpy scikit-learn plotly joblib matplotlib seaborn
+pip install streamlit pandas numpy scikit-learn plotly joblib matplotlib seaborn
 ```
 
 ---
